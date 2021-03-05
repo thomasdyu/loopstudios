@@ -3,7 +3,14 @@ import mainImg from '../images/desktop/image-interactive.jpg';
 import './MainContent.css';
 const Main = () => {
     return (
-        <main className='main container'>
+        <main
+            className='main container'
+            style='
+                    display: flex;
+                    align-items: flex-end;
+                    padding: 8rem 4rem;
+                    position: relative;'
+        >
             <div className='img-container'>
                 <img className='main__img' src={mainImg} alt='Hero' />
             </div>
