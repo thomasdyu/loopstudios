@@ -1,10 +1,9 @@
 import React from 'react';
 import mainImg from '../images/desktop/image-interactive.jpg';
 import './Main.css';
-
 const Main = () => {
     return (
-        <main className='main__wrapper container'>
+        <main className='container'>
             <div className='img-container'>
                 <img className='main__img' src={mainImg} alt='Hero' />
             </div>
