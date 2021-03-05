@@ -1,6 +1,6 @@
 import React from 'react';
 import mainImg from '../images/desktop/image-interactive.jpg';
-import './Main.css';
+import './MainContent.css';
 const Main = () => {
     return (
         <main className='container'>
