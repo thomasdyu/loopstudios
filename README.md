@@ -1,3 +1,8 @@
+## Issues with deployment to Vercel 
+main class in MainContent.js for some reason will not populate causing weird alginment issue. 
+To remedy this issue, inline styling has been used on the main tag in the MainContent.js.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
