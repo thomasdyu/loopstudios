@@ -5,11 +5,12 @@ const Main = () => {
     return (
         <main
             className='main container'
-            style='
-                    display: flex;
-                    align-items: flex-end;
-                    padding: 8rem 4rem;
-                    position: relative;'
+            style={{
+                display: 'flex',
+                alignItems: 'flex-end',
+                padding: '8rem 4rem',
+                position: 'relative',
+            }}
         >
             <div className='img-container'>
                 <img className='main__img' src={mainImg} alt='Hero' />
