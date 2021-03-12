@@ -4,7 +4,7 @@ import './MainContent.css';
 const Main = () => {
     return (
         <div className='container'>
-            <div className='content'>
+            <div className='content' style={{ position: 'relative' }}>
                 <div className='img-container'>
                     <img className='main__img' src={mainImg} alt='Hero' />
                 </div>
