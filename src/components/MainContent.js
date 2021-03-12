@@ -3,7 +3,7 @@ import mainImg from '../images/desktop/image-interactive.jpg';
 import './MainContent.css';
 const Main = () => {
     return (
-        <main className='container'>
+        <div className='container'>
             <div className='content'>
                 <div className='img-container'>
                     <img className='main__img' src={mainImg} alt='Hero' />
@@ -22,7 +22,7 @@ const Main = () => {
                     </p>
                 </div>
             </div>
-        </main>
+        </div>
     );
 };
 
