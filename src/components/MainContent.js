@@ -1,5 +1,5 @@
 import './MainContent.css';
-import ContentImg from '../images/desktop/image-interactive.jpg';
+// import ContentImg from '../images/desktop/image-interactive.jpg';
 
 const MainContent = () => {
     return (
