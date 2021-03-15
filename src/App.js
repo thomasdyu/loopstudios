@@ -3,7 +3,7 @@ import Header from './components/Header';
 import Content from './components/Content';
 import Footer from './components/Footer';
 import Gallery from './components/Gallery';
-import Test from './components/Test';
+
 import './App.css';
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
         <div>
             <Header />
             <Content />
-            <Test />
+
             <Gallery />
             <Footer />
         </div>
