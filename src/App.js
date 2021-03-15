@@ -1,6 +1,5 @@
-import './App.css';
 import Header from './components/Header';
-import Content from './components/Content';
+import MainContent from './components/Main';
 import Footer from './components/Footer';
 import Gallery from './components/Gallery';
 
@@ -10,8 +9,7 @@ function App() {
     return (
         <div>
             <Header />
-            <Content />
-
+            <MainContent />
             <Gallery />
             <Footer />
         </div>

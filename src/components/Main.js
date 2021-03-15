@@ -1,7 +1,7 @@
 import React from 'react';
-import './Test.css';
+import './Main.css';
 
-const Test = () => {
+const MainContent = () => {
     return (
         <div className='container'>
             <div className='content-container'>
@@ -20,4 +20,4 @@ const Test = () => {
     );
 };
 
-export default Test;
+export default MainContent;
