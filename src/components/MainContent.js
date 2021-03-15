@@ -5,11 +5,11 @@ const MainContent = () => {
     return (
         <div className='container'>
             <div className='content'>
-                <img
+                {/* <img
                     className='content-img'
                     src={ContentImg}
                     alt='Interactive VR'
-                />
+                /> */}
                 <div className='text-content'>
                     <h1>The Leader in Interactive VR</h1>
                     <p>
