@@ -1,4 +1,4 @@
-import './MainContent.css';
+import './Content.css';
 // import ContentImg from '../images/desktop/image-interactive.jpg';
 
 const MainContent = () => {
