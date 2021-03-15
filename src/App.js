@@ -1,5 +1,5 @@
 import Header from './components/Header';
-import MainContent from './components/Main';
+import Test from './components/Test';
 import Footer from './components/Footer';
 import Gallery from './components/Gallery';
 
@@ -9,9 +9,8 @@ function App() {
     return (
         <div>
             <Header />
-
+            <Test />
             <Gallery />
-            <MainContent />
             <Footer />
         </div>
     );
