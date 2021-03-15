@@ -1,8 +1,9 @@
 .content-container {
     height: 600px;
     background-color: darkorchid;
+    position: relative;
 }
-
+/* 
 .text-content {
     width: 480px;
     background-color: #ffffff;
@@ -26,4 +27,4 @@
     font-size: 15px;
     line-height: 1.6rem;
     color: hsl(0, 0%, 55%);
-}
+} */
