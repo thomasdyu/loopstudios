@@ -1,7 +1,7 @@
 import React from 'react';
 import mainImg from '../images/desktop/image-interactive.jpg';
 import './MainContent.css';
-const Main = () => {
+const MainContent = () => {
     return (
         <div className='container'>
             <div className='content'>
@@ -24,4 +24,4 @@ const Main = () => {
     );
 };
 
-export default Main;
+export default MainContent;
