@@ -4,8 +4,8 @@ import './MainContent.css';
 const MainContent = () => {
     return (
         <div className='container'>
-            <div className='wrapper'>
-                <div className='content'>
+            <div className='content'>
+                <div className='wrapper'>
                     <img className='main__img' src={mainImg} alt='Hero' />
 
                     <div className='main__text-container'>

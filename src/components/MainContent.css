@@ -1,10 +1,9 @@
 .wrapper {
     position: relative;
 }
-
 .content {
-    height: 630px;
     position: relative;
+    height: 630px;
     margin: 8rem 4rem;
 }
 .main__text-container {
@@ -38,17 +37,18 @@
 
 /* =========== Media Queries ==================== */
 @media only screen and (max-width: 1360px) {
+    .wrapper {
+        display: flex;
+    }
     .main__text-container {
         margin: 0 auto;
         position: static;
-        padding: 3rem;
+        padding: 3rem 0 3rem 3rem;
         z-index: 0;
     }
-
     .main__text-heading {
         text-align: center;
     }
-
     .main__img {
         height: auto;
     }
