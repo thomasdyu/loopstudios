@@ -1,10 +1,7 @@
-.content {
+.container .content {
     height: 630px;
     position: relative;
     margin: 8rem 4rem;
-}
-.wrapper {
-    position: relative;
 }
 .main__text-container {
     background-color: #fff;
