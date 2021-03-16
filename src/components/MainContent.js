@@ -7,7 +7,6 @@ const MainContent = () => {
             <div className='content'>
                 <div className='wrapper'>
                     <img className='main__img' src={mainImg} alt='Hero' />
-
                     <div className='main__text-container'>
                         <h1 className='main__text-heading'>
                             the leader in interactive vr

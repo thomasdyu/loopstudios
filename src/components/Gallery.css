@@ -71,7 +71,7 @@
             'button';
         justify-items: stretch;
 
-        padding: 0 2rem;
+        padding: 4rem 2rem;
     }
     .gallery__container {
         grid-template-columns: 1fr;
