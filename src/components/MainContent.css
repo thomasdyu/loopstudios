@@ -3,6 +3,9 @@
     position: relative;
     margin: 8rem 4rem;
 }
+.wrapper {
+    position: relative;
+}
 .main__text-container {
     background-color: #fff;
     width: 600px;
